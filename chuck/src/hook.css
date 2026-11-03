@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex:1;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  min-height: 0;
+  background-color: #444444;
+  border-radius: 20px;
+
+
+  background: linear-gradient(
+      to top,
+      var(--color1) 0%,
+      var(--color1) var(--progress),
+      var(--color1) var(--progress),
+      var(--color2) 100%
+  );
+
+    transition: background 0.1s ease;
+}
+
+.container p {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
