@@ -1,11 +1,14 @@
-# 2026-10-22
+# 2026-11-03
 
 ### Changed
 
 ### Added
-- Add a chuck player
+- Can control gain_melody / freq / bpm / gain_beat
 
 ### Removed
+
+### Debug
+- Controling beat will not align the rhythm with other parts.
 
 
 ---
